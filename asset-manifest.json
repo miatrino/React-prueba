@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/miatrino/React-prueba/static/css/main.e6c13ad2.css",
+    "main.js": "/miatrino/React-prueba/static/js/main.2f92f81a.js",
+    "static/js/787.5b5dfee8.chunk.js": "/miatrino/React-prueba/static/js/787.5b5dfee8.chunk.js",
+    "index.html": "/miatrino/React-prueba/index.html",
+    "main.e6c13ad2.css.map": "/miatrino/React-prueba/static/css/main.e6c13ad2.css.map",
+    "main.2f92f81a.js.map": "/miatrino/React-prueba/static/js/main.2f92f81a.js.map",
+    "787.5b5dfee8.chunk.js.map": "/miatrino/React-prueba/static/js/787.5b5dfee8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2f92f81a.js"
+  ]
+}
