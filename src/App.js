@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
+import NavBar from './Components/NavBar';
+import ItemListContainer from './Components/ItemListContainer'
 
 
 export default function App() {
   return (
   <>
    <div>
-     <Header>
-       
-     </Header>
+     <NavBar/>
+     <ItemListContainer/>
    </div>
   </>
   )

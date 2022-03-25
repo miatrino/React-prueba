@@ -1,8 +1,10 @@
 import React from 'react';
 import { AppBar,Button,Tab,Tabs,Typography,Toolbar } from '@mui/material';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import CardWidget from './CardWidget';
 
-export default function Header() {
+
+
+export default function NavBar() {
   return (
   <>
    <AppBar sx={{background:"#063970"}}>
@@ -18,7 +20,7 @@ export default function Header() {
             <Button sx={{marginLeft:'auto'}} variant='contained'>Ingresar</Button>
             <Button sx={{marginLeft:'10px'}} variant='contained'>Registrarse</Button>
 
-            <ShoppingCartIcon sx={{marginLeft:'3rem'}}/>
+            <CardWidget></CardWidget>
        </Toolbar>
    </AppBar>
   </>
