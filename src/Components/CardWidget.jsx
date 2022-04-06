@@ -1,11 +1,12 @@
 import React from 'react';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { BsFillCartFill } from "react-icons/bs";
+import s from './CardWidget.module.css';
+function CardWidget() {
+  return (
+    <div>
+        <BsFillCartFill className={s.colorIcon} size={30}/>
+    </div>
+  )
+}
 
-
-export default function CardWidget() {
-    return (
-    <>
-        <ShoppingCartIcon sx={{marginLeft:'3rem'}}/>
-    </>
-    )
-  }
+export default CardWidget

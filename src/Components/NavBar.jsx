@@ -1,5 +1,7 @@
 import React from 'react';
-import { AppBar,Button,Tab,Tabs,Typography,Toolbar } from '@mui/material';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 import CardWidget from './CardWidget';
 
 
@@ -7,22 +9,19 @@ import CardWidget from './CardWidget';
 export default function NavBar() {
   return (
   <>
-   <AppBar sx={{background:"#063970"}}>
-       <Toolbar>
-           <Typography>STEP BY STEP</Typography>
-
-            <Tabs textColor='inherit'>
-                <Tab label='Calzado Hombre'/>
-                <Tab label='Calzado Mujer'/>
-                <Tab label='Calzado Unisex'/>
-                <Tab label='Contacto'/>
-            </Tabs>
-            <Button sx={{marginLeft:'auto'}} variant='contained'>Ingresar</Button>
-            <Button sx={{marginLeft:'10px'}} variant='contained'>Registrarse</Button>
-
-            <CardWidget></CardWidget>
-       </Toolbar>
-   </AppBar>
+   <div>
+   <Navbar bg="primary" variant="dark">
+    <Container>
+    <Navbar.Brand href="#home">Step by Step</Navbar.Brand>
+    <Nav className="me-auto">
+      <Nav.Link href="#home">Calzado Femenino</Nav.Link>
+      <Nav.Link href="#features">Calzado Masculino</Nav.Link>
+      <Nav.Link href="#pricing">Calzado Unisex</Nav.Link>
+    </Nav>
+    <CardWidget />
+    </Container>
+  </Navbar>
+   </div>
   </>
   )
 }
